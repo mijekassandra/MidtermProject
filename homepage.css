@@ -1,0 +1,38 @@
+*{
+    background-color: pink;
+}
+
+.tabs{
+    background-color: inherit;
+    border: none;
+    float:right;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkmagenta;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+#tablink{
+    overflow: hidden;
+    width: 1890px;
+}
+
+
+#welcome{
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color: palevioletred;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 1px;
+
+}
+
+#myname{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: palevioletred;
+    text-align: center;
+}
