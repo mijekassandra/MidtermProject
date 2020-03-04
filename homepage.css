@@ -1,38 +1,49 @@
-*{
-    background-color: pink;
+.navbar-custom {
+    background-color: white;
 }
 
-.tabs{
-    background-color: inherit;
-    border: none;
-    float:right;
+.jumbotron{
+    height: 600px;
+    background-image: url(assemble1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 700px;
+}
+
+.display-4 {
+    font-size: 48px;
+    font-family:Helvetica;
+}
+
+.og6{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.blockquote{
+    padding-bottom: 1px;
+}
+#avgdescription{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+#jcontainer{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    opacity: 0.7;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+
+}
+
+#homesecond{
+    font-weight: 300;
+    font-family: Helvetica;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkmagenta;
-    font-weight: bold;
-    margin-top:50px;
+    color: black;
 }
 
-#tablink{
-    overflow: hidden;
-    width: 1890px;
-}
-
-
-#welcome{
-    font-size: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
-    color: palevioletred;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 1px;
-
-}
-
-#myname{
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: palevioletred;
-    text-align: center;
-}

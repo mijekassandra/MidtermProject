@@ -1,0 +1,17 @@
+.picture{  
+    padding-top: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.picture .text{
+    font-weight:bold ;
+    color: white;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+}
