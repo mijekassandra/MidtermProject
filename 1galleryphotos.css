@@ -1,0 +1,25 @@
+.container-fluid{
+    background-color: 	#F9EFEF;
+}
+
+.row{
+    justify-content: center;
+    padding-top: 20px;
+}
+.box{  
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    position: static;
+    display: inline-block;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-zoom img{
+    transition: 0.5s;
+}
+
+.image-zoom:hover img{
+    transform: scale(1.3);
+}

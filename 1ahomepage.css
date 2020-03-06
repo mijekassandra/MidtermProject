@@ -1,0 +1,49 @@
+.navbar-nav{
+    float: right;
+}
+
+.jumbotron{
+    height: 600px;
+    background-image: url(assemble1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 700px;
+}
+
+.display-4 {
+    font-size: 48px;
+    font-family:Helvetica;
+}
+
+.og6{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.blockquote{
+    padding-bottom: 1px;
+}
+#avgdescription{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+#jcontainer{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    opacity: 0.7;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+
+}
+
+#homesecond{
+    font-weight: 300;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: black;
+}
+
