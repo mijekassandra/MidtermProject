@@ -1,7 +1,3 @@
-.navbar-nav{
-    float: right;
-}
-
 .jumbotron{
     height: 600px;
     background-image: url(assemble1.jpg);
@@ -37,7 +33,6 @@
     padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 300px;
-
 }
 
 #homesecond{

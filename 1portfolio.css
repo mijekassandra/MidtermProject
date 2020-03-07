@@ -1,0 +1,78 @@
+.container-fluid{
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.col-md-3{
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 400px;
+    height: 580px;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.0s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-box-back {
+    background-color:rgb(25,25,112);
+    color: white;
+    transform: rotateY(180deg);
+
+}
+.sname{
+    text-align: center;
+}
+.rname{
+    text-align: center;
+}
+
+.arrange{
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    padding-left: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.profile{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+}
+.description{
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#proftitle{
+    font-weight: bolder;
+    text-align: center;
+}
