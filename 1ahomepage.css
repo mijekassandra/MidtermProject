@@ -1,20 +1,16 @@
+
 .jumbotron{
-    height: 600px;
-    background-image: url(assemble1.jpg);
+    height: 700px;
+    background-size: contain;
+    background-image: url(extra.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px 700px;
+    background-size: 1500px 750px;
+    border-radius: 0 !important;
+    margin-bottom: 0px;
 }
-
 .display-4 {
-    font-size: 48px;
+    font-size:4vw;
     font-family:Helvetica;
-}
-
-.og6{
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 30px;
-    padding-bottom: 10px;
 }
 
 .blockquote{
@@ -22,23 +18,137 @@
 }
 #avgdescription{
     font-size: 25px;
-    padding-right: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size:2.0vw;
 }
 
-#jcontainer{
+.jcontainer{
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 70%;
-    opacity: 0.7;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-bottom: 300px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-bottom: 230px;
+    opacity: 0.8;
+    justify-content: center;
 }
+
+.footer{
+    background-color: #0c0c0c;
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.circular-img{
+    border-radius: 50%;
+    margin-left: 30px ;
+    margin-right: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.fa {
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+    max-width: 100%;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    max-width: 100%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    max-width: 100%;
+  }
+
+  .fa-instagram {
+    background:  white;
+    color: rgb(189, 27, 81);
+    max-width: 100%;
+  }
 
 #homesecond{
     font-weight: 300;
     font-family: Helvetica;
     font-size: 30px;
     color: black;
+    font-size:2vw;
+
+}
+#explore{
+    padding-top: 30px;
+    font-size:2vw;
+
 }
 
+#creator{
+    font: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: row;
+    font-size:5vw;
+
+}
+
+#creator:before, #creator:after{
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 5px solid white; 
+    margin: auto; 
+
+}
+#me{
+    justify-content: center;
+    text-align: left;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 10px;
+    font-size:3vw;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 0px;
+
+
+}
+#aboutme{
+    font-size:2vw;
+    margin-left: 20px;
+    margin-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+
+}
+
+#follow{
+    font-size:2vw;
+    margin-left: 20px;
+    margin-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+}
+
+   

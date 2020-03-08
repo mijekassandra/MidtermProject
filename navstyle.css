@@ -1,0 +1,22 @@
+.navbar{
+   background-color:#8f1010;
+   opacity: 0.9;
+   height: 80px;
+   position: sticky;
+   top: 0;
+   padding-right: 0px;
+}
+
+.navbar-brand{
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link{
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}

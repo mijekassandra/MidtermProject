@@ -1,0 +1,35 @@
+.jumbotron{
+    height: 700px;
+    background-size: contain;
+    background-image: url(assemble1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 !important;
+    margin-bottom: 0px;
+    max-width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.jcontainer{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    margin-top: 0;
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-bottom: 250px;
+    opacity: 0.8;
+    max-width: 100%;
+    height: auto;
+}
+.h2{
+    padding-top: 30px;
+    font-size:5vw;
+}
+#avgdescription{
+    padding-top: 30px;
+    font-size:2vw;
+
+}
