@@ -1,7 +1,8 @@
 .navbar{
    background-color:#8f1010;
    opacity: 0.9;
-   height: 80px;
+   width: 100%;
+   height: auto;
    position: sticky;
    top: 0;
    padding-right: 0px;

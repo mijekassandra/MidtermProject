@@ -16,24 +16,27 @@
 .blockquote{
     padding-bottom: 1px;
 }
-#avgdescription{
-    font-size: 25px;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    font-size:2.0vw;
+
+.btn{
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    max-width: 100%;;
+    height: auto;
 }
 
 .jcontainer{
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 70%;
-    padding-top: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
     padding-left: 70px;
     padding-right: 40px;
-    padding-bottom: 230px;
-    opacity: 0.8;
-    justify-content: center;
+    padding-bottom: 250px;
+    opacity: 0.9;
+    text-align: left;
 }
 
 .footer{
@@ -43,112 +46,20 @@
 
 }
 
-.circular-img{
-    border-radius: 50%;
-    margin-left: 30px ;
-    margin-right: 0;
-    max-width: 100%;
-    height: auto;
+#avgdescription{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size:2.0vw;
 }
 
-.fa {
-    padding: 10px 10px 10px 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 10px 10px 10px;
-    border-radius: 50%;
-    max-width: 100%;
-
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-    max-width: 100%;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    max-width: 100%;
-  }
-
-  .fa-instagram {
-    background:  white;
-    color: rgb(189, 27, 81);
-    max-width: 100%;
-  }
-
-#homesecond{
-    font-weight: 300;
-    font-family: Helvetica;
-    font-size: 30px;
-    color: black;
-    font-size:2vw;
-
-}
 #explore{
-    padding-top: 30px;
-    font-size:2vw;
-
-}
-
-#creator{
-    font: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: white;
-    font-size: 4vw;
-    display: flex;
-    flex-direction: row;
-    font-size:5vw;
-
-}
-
-#creator:before, #creator:after{
-    content: ""; 
-    flex: 1 1; 
-    border-bottom: 5px solid white; 
-    margin: auto; 
-
-}
-#me{
-    justify-content: center;
     text-align: left;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-top: 10px;
-    font-size:3vw;
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 0px;
+    font-size:2.0vw;
+    padding-top: 25px;
 
-
-}
-#aboutme{
-    font-size:2vw;
-    margin-left: 20px;
-    margin-right: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: left;
-
-}
-
-#follow{
-    font-size:2vw;
-    margin-left: 20px;
-    margin-right: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: left;
 }
 
    

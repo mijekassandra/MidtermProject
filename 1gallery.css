@@ -1,18 +1,54 @@
-.picture{  
-    padding-top: 50px;
-    position: relative;
-    display: inline-block;
+img{
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .3s ease-in-out; 
 }
 
+img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.jumbotron{
+    width:100%;
+    height: auto;
+    background-size: cover;
+    background-color: #0c0c0c;
+    border-radius: 0 !important;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.picture{  
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
 .picture .text{
-    font-weight:bold ;
+    font-family: 'Passion One';
+    font-weight: bold;
     color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
     position: absolute;
     z-index: 999;
     text-align: center;
-    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
     left: 0;
     right: 0;
-    top: 50%;
+    top: 40%;
+    
 }
 
+#photoalbum{
+    font-family: 'Coda Caption', sans-serif;
+    color: white;
+    font-size: 6vw;
+}

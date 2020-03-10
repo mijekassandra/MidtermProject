@@ -1,35 +1,162 @@
-.jumbotron{
-    height: 700px;
-    background-size: contain;
-    background-image: url(assemble1.jpg);
+
+.jumbotron .container {
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width:100%;
+    height: auto;
+}
+
+.d-block{
+    opacity: 0.8;
+    width: 1400px;
+    height: 450px;
+}
+
+.btn{
+    padding: 10px 20px 10px 20px;
+}
+
+.fa {
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50%;
+    max-width: 100%;
+
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    max-width: 100%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    max-width: 100%;
+}
+
+.fa-instagram {
+    background:  white;
+    color: rgb(189, 27, 81);
+    max-width: 100%;
+}
+
+.leading{
+    font-size: 4vw;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circular-img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+#list-example{
+    color: white;
+}
+
+#firstjb {
+    background-image:url('assemble1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0 !important;
     margin-bottom: 0px;
-    max-width: 100%;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 0;
+    border-radius: 0 !important;
+    width:100%;
+    height:auto;
 }
 
-.jcontainer{
-    background-image: url(bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 70%;
+
+#title{
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size:4.0vw;
+    text-align: center;
+}
+
+#description{
+    font-family: 'Bellota Text', cursive;
+    color: black;
+    font-size:2.0vw;
+    text-align: center;
+}
+
+#avg{
+    background-color: 	rgb(131, 23, 23);
+    background-size: contain;
+    border-radius: 0 !important;
     margin-top: 0;
-    padding-left: 70px;
-    padding-right: 40px;
-    padding-bottom: 250px;
-    opacity: 0.8;
-    max-width: 100%;
-    height: auto;
+    margin-bottom: 0;
+    padding-top: 10px 10px 10px 10px;
+    width:100%;
+    height:auto;
+    
 }
-.h2{
-    padding-top: 30px;
-    font-size:5vw;
-}
-#avgdescription{
-    padding-top: 30px;
-    font-size:2vw;
 
+#creator{
+    background-color: #0c0c0c;
+    background-size: contain;
+    border-radius: 0 !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px 10px 10px 10px;
+    width:100%;
+    height:auto;
+    
+}
+
+#who{
+    font-size:25px;
+    font-family: 'Bellota Text', cursive;
+    color: white;
+    text-align: justify;
+    padding-right: 22px;
+}
+
+#me{
+    font-family: 'Bellota Text', cursive;
+    justify-content: center;
+    font-weight: bolder;
+    text-align: left;
+    font-size: larger;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size:3vw;
+    max-width: 100%;
+
+}
+
+#aboutme{
+    font-family: 'Bellota Text', cursive;
+    font-size:25px;
+    color: white;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 30px;
+
+}
+
+#follow{
+    font-size:20px;
+    font-family: 'Bellota Text', cursive;
+    font-weight: bolder;
+    color: white;
+    text-align: justify;
+    padding-left: 30px;
 }
