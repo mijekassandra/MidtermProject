@@ -1,65 +1,83 @@
 
 .jumbotron{
-    height: 700px;
-    background-size: contain;
     background-image: url(extra.jpg);
     background-repeat: no-repeat;
-    background-size: 1500px 750px;
+    background-size:100% 100%;
     border-radius: 0 !important;
-    margin-bottom: 0px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
 }
 .display-4 {
     font-size:4vw;
-    font-family:Helvetica;
-}
-
-.blockquote{
-    padding-bottom: 1px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .btn{
-    padding: 10px 20px 10px 20px;
-    margin-left: 10px;
-    max-width: 100%;;
-    height: auto;
+    padding: 1% 2% 1% 2%;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    font-size: 1.5vw;
+
 }
 
 .jcontainer{
     background-image: url(bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 70%;
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 50px;
-    padding-left: 70px;
-    padding-right: 40px;
-    padding-bottom: 250px;
+    background-size:100% 100%;
+    padding-top: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    margin: 10px 40px 20px 30px;
     opacity: 0.9;
-    text-align: left;
 }
 
 .footer{
     background-color: #0c0c0c;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     padding: 20px 20px 20px 20px;
-
+    
 }
 
+.col{
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.sources{
+    font-size:1.3vw ;
+    color: rgba(134, 128, 128, 0.979);
+    text-align: justify;
+}
+
+.link{
+    font-size: 1.0vw;
+    color: rgba(134, 128, 128, 0.979);
+}
 #avgdescription{
-    font-size: 25px;
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    font-size:2.0vw;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-top: 1%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size:2.5vw;
 }
 
 #explore{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
     text-align: left;
-    font-size:2.0vw;
-    padding-top: 25px;
+    font-size:1.5vw;
+    padding-top: 1%;
+}
+
+#disclaimer{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rgba(134, 128, 128, 0.979);
+    padding-bottom: 2%;
 
 }
 
-   
+

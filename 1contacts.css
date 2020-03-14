@@ -1,0 +1,88 @@
+
+h2{
+    font-family: 'Bellota Text', cursive;
+    font-size: 4.0vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+h3{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 3.0vw;
+    text-align: center;
+
+}
+
+.jumbotron{
+    width:100%;
+    height: auto;
+    background-size: cover;
+    background-color: #0c0c0c;
+    border-radius: 0 !important;
+    margin-bottom: 0px;
+}
+
+.jcontainer{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding-top: 40px;
+    opacity: 0.7;
+}
+
+.contact {
+    font-family: 'Bellota Text', cursive;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.description{
+    font-family: 'Bellota Text', cursive;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 15px 15px 15px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+    color: black;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    max-width: 100%;
+    margin-bottom: 35px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    max-width: 100%;
+
+}
+
+.fa-instagram {
+    background:  white;
+    color: rgb(189, 27, 81);
+    max-width: 100%;
+
+}

@@ -14,31 +14,40 @@
 <body>
 
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">THE AVENGERS</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand-md">
+            <a href="1ahomepage.html" class="navbar-brand"><img src="logo.png" width="130px" height="50px"/></a>
+            <button type="button" class="navbar-toggler ml-auto custom-toggler navbar-dark" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse text-right navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="1ahomepage.html">Home <span class="sr-only">(current)</span></a>
+                        <a href="1ahomepage.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="1about.html">About</a>
+                        <a href="1about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item dropdown flex-grow-1 text-right">
+                        <a href="1gallery.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                        <div class="dropdown-menu">
+                            <a href="1gallery.html" class="dropdown-item">Main Gallery</a>
+                            <a href="1galleryPhoto1.html" class="dropdown-item">Individual Photos</a>
+                            <a href="1galleryPhoto2.html" class="dropdown-item">Group Photos</a>
+                            <a href="1galleryPhoto3.html" class="dropdown-item">Random Shots</a>
+                            <a href="1galleryPhoto4.html" class="dropdown-item">Avengers(2012) Photos</a>
+                            <a href="1galleryPhoto5.html" class="dropdown-item">Age of Ultron Photos</a>
+                            <a href="1galleryPhoto6.html" class="dropdown-item">IW/Endgame Photos</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="1gallery.html">Gallery</a>
+                        <a href="1portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="1portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a href="1contacts.html" class="nav-link">Contacts</a>
                     </li>
                 </ul>
             </div>
-            </nav>
+        </nav>
     </div>
 
     <div id="firstjb" class="jumbotron bg-transparent">
@@ -49,30 +58,32 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                    <img src="bg.jpg" class="d-block" alt="first slide">
-                    <div class="carousel-caption">
-                        <h2 id="title">ABOUT THE AVENGERS</h2>
-                        <p id="description">
-                            The Avengers are a team of superheroes assembled by Nick Fury and the intelligence agency S.H.I.E.L.D. through the Avengers Initiative.
-                        </p>
-                        <a href="#list-item-1" class="btn btn-danger" role="button">Know More</a>
-                    </div>  
-                </div>
-                  
-                <div class="carousel-item">
-                    <img src="bg.jpg" class="d-block w-100" alt="second slide">
-                    <div class="carousel-caption">
-                        <h2 id="title">ABOUT THE CREATOR</h2>
-                        <p id="description">
-                            Hello! Im Kassandra Mije, wanna know more about me? <br> 
-                            Click the button below.
-                        </p>
-
-                        <a href="#list-item-2" class="btn btn-danger" role="button">Know More</a> 
+                    <div class="carousel-item active">
+                        <img src="bg.jpg" class="d-block" alt="first slide">
+                        <div class="carousel-caption">
+                            <h2 id="title">ABOUT THE WEBSITE</h2>
+                            <p id="description">
+                                The Avengers are a team of superheroes assembled by Nick Fury and the intelligence agency S.H.I.E.L.D. through the Avengers Initiative.
+                                To learn more about this website.<br> 
+                                Click the button below.
+                            </p>
+                            <a href="#list-item-0" class="btn btn-danger" role="button">Know More</a>
+                        </div>  
                     </div>
-                </div>
+
+                    
+                    <div class="carousel-item">
+                        <img src="bg.jpg" class="d-block w-100" alt="second slide">
+                        <div class="carousel-caption">
+                            <h2 id="title">ABOUT THE CREATOR</h2>
+                            <p id="description">
+                                Hello! Im Kassandra Mije, wanna know more about me? <br> 
+                                Click the button below.
+                            </p>
+
+                            <a href="#list-item-1" class="btn btn-danger" role="button">Know More</a> 
+                        </div>
+                    </div>
                   
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -85,12 +96,13 @@
                 </a>
               </div>
         </div>
-    </div>    
+    </div>
 
     <div id="avg" class="jumbotron">
         <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-            <h4 id="list-item-1" class="leading">THE AVENGERS</h4>
+            <h4 id="list-item-0" class="leading">THE AVENGERS</h4>
             <p id="who">
+                
                 The Avengers are a team of superheroes assembled by Nick Fury and the intelligence agency S.H.I.E.L.D. through the Avengers Initiative.
                 The original six avengers were Captain America, Iron Man, Thor, Hulk, Black Widow and Hawkeye.They were initially brought together by S.H.I.E.L.D. to combat Loki,
                 Thor's adoptive brother. The team was initially formed by Nick Fury to "fight the battle that S.H.I.E.L.D. never could".<br>
@@ -104,33 +116,48 @@
                 <br>
                 Avengers' known enemies were Loki(brother of Thor), Ultron and Thanos but Under Captain America's leadership, the team successfully completed several operations around the world, and there were additional
                 members including Scarlet Witch, War Machine, Vision, The Falcon, Winter Soldier, Ant Man and Spiderman. <br>
-                <br>                         
+                <br>                 
+            </p>
+
+            <h4 class="leading">THE WEBSITE</h4>
+            <p id="who">
+                In this webpage you will learn more about the avengers specifically the original six avengers. You will be able to get to know                       
+                each characters and their skills. You can also view photos from the first movie to the 3rd movie.  This was created for entertainment purposes only.
+                <br>                 
             </p>
         </div>
     </div>
 
+    
+
     <div id="creator" class="jumbotron">
         <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-            <h4 id="list-item-2" class="leading">THE CREATOR</h4>
+            <h4 id="list-item-1" class="leading">THE CREATOR</h4>
             <div class="row">
-                <div class="col-2 col-md-2">
+                <div class="col-2 col-md-3">
                     <img class="circular-img" src="creator.jpg" alt="The Creator">
                 </div>
-                <div class="col-6 col-md-10">
-                <h3 id="me">MIJE, KASSANDRA</h3>
-                <p id="aboutme">
-                    Cassey is 20 yrs old, a student of Information Technology from USTP. <br>
-                    She is a huge fan of Marvel, she likes watching the marvel TV shows and movies. She became a fan of marvel in 2016 and has always been
-                    watching the movies in cinemas in the first day of premiere. Her love for marvel inspired her to make this web project.<br>
-                    She also likes kpop group EXO and NCT. She likes spending her spare time watching kpop videos.<br>
-                </p>
-                <p id="follow">Follow cassey's social media accounts
-                    <a href="https://www.facebook.com/mije.cassey" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/danversvndyne" class="fa fa-twitter"></a>
-                    <a href="https://www.instagram.com/casseeeeeey/?hl=en" class="fa fa-instagram"></a>   
+                <div class="col-9">
+                    <h3 id="me">MIJE, KASSANDRA</h3>
+                    <p id="aboutme">
+                        Cassey is 20 yrs old, a student of Information Technology from USTP.<br>
+                        Lives in Cagayan de Oro City.<br>
+                    </p>
 
-                </p>
+                    <h3 id="me">Likes</h3>
+                    <p id="aboutme">
+                        She is a huge fan of Marvel, she likes watching the marvel TV shows and movies. She became a fan of marvel since 2016 and has always been
+                        watching the movies in cinemas in the first day of premiere. Her love for marvel inspired her to make this web project.<br>
+                        She also likes kpop group EXO and NCT. She likes spending her spare time watching kpop videos.<br>
+                    </p>
+
+                    <h3 id="me">Skills</h3>
+                    <p id="aboutme">
+                       Vector Art | Photoshop Editing | Dancing
+                    </p>
+                    
                 </div>
+                
             </div>
         </div>
     </div>

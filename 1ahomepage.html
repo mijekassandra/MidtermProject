@@ -13,44 +13,52 @@
 <body>
 
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">THE AVENGERS</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand-md">
+            <a href="1ahomepage.html" class="navbar-brand"><img src="logo.png" width="130px" height="50px"/></a>
+            <button type="button" class="navbar-toggler ml-auto custom-toggler navbar-dark" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse text-right navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="1ahomepage.html">Home <span class="sr-only">(current)</span></a>
+                        <a href="1ahomepage.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="1about.html">About</a>
+                        <a href="1about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item dropdown flex-grow-1 text-right">
+                        <a href="1gallery.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                        <div class="dropdown-menu">
+                            <a href="1gallery.html" class="dropdown-item">Main Gallery</a>
+                            <a href="1galleryPhoto1.html" class="dropdown-item">Individual Photos</a>
+                            <a href="1galleryPhoto2.html" class="dropdown-item">Group Photos</a>
+                            <a href="1galleryPhoto3.html" class="dropdown-item">Random Shots</a>
+                            <a href="1galleryPhoto4.html" class="dropdown-item">Avengers(2012) Photos</a>
+                            <a href="1galleryPhoto5.html" class="dropdown-item">Age of Ultron Photos</a>
+                            <a href="1galleryPhoto6.html" class="dropdown-item">IW/Endgame Photos</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="1gallery.html">Gallery</a>
+                        <a href="1portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="1portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a href="1contacts.html" class="nav-link">Contacts</a>
                     </li>
                 </ul>
             </div>
-            </nav>
+        </nav>
     </div>
 
 
         <div class="jumbotron bg-transparent">
             <div class = jcontainer >
-                <h2 class = "h2 display-4 font-weight-bold text-justify">THE EARTH'S MIGHTIEST HEROES</h2>
-                <div class = container-fluid>
+                <h2 class = "display-4 font-weight-bold text-left">THE EARTH'S MIGHTIEST HEROES</h2>
                     <div class = "lead text-justify">
                         <p id="avgdescription">
                             Avengers stand as the planet's first line of defense against the most powerful threats in the universe.
                             A team of extraordinary individuals, with either superpowers or other special characteristics.
                         </p>
-                        <p id="explore" class="h5">
+                        <p id="explore">
                             <br>
                             Wanna know more about the Orginal Six Avengers? Explore this website.
                             <a href="1about.html" class="btn btn-danger" role="button">Know More</a> 
@@ -58,14 +66,27 @@
                 </div>
             </div>
         </div>
-     </div>
 
 
 <div class="footer">     
     <div class="container-fuid">
-        <h3 id="creator">THE CREATOR<h3>
         <div class="row">
-            <div class="col-2 col-md-2">
+            <div class="col col-md-4">
+                <h5 id="disclaimer">Disclaimer<h5>
+                <p class="sources">
+                    Content, informations and photos from these webpages are not owned by the creator. Thus, the owner do not
+                    intend to steal informations. Sources of informations are from another website and will be cited . 
+                </p>
+            </div>
+
+            <div class="col col-md-6">
+                <h6 id="disclaimer">Sources:</h6 >
+                <p class="sources">
+                    <a href="https://www.marvel.com/teams-and-groups/avengers" class="link">https://www.marvel.com/teams-and-groups/avengers</a><br>
+                    <a href="https://marvel-movies.fandom.com/wiki/Avengers_(team)" class="link">https://marvel-movies.fandom.com/wiki/Avengers_(team)</a><br>
+                    <a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers" class="link">https://marvelcinematicuniverse.fandom.com/wiki/Avengers</a><br>
+                    <a href="https://www.noobfeed.com/news/9146/marvel-s-avengers-first-character-profile-trailer-features" class="link">https://www.noobfeed.com/news/9146/marvel-s-avengers-first-character-profile-trailer-features</a><br>
+                </p>
             </div>
         </div>  
     </div>

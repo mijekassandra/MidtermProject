@@ -7,39 +7,39 @@ img{
 img:hover{
     filter: none;
     -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1.01);
+    -webkit-transform: scale(1.0);
 }
 
 .jumbotron{
-    width:100%;
-    height: auto;
-    background-size: cover;
     background-color: #0c0c0c;
+    background-size:cover;
     border-radius: 0 !important;
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .picture{  
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     position: relative;
     display: inline-block;
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
+
 .picture .text{
     font-family: 'Passion One';
     font-weight: bold;
+    font-size: 40px;
     color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     position: absolute;
     z-index: 999;
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 1%;
+    padding-right: 1%;
     margin: auto;
     left: 0;
     right: 0;
@@ -51,4 +51,5 @@ img:hover{
     font-family: 'Coda Caption', sans-serif;
     color: white;
     font-size: 6vw;
+    padding-top: 2%;
 }

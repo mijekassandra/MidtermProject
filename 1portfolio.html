@@ -14,40 +14,49 @@
 </head>
 <body>
 
-    <div id="background" >
-        <div class="wrapper">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">THE AVENGERS</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="1ahomepage.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="1about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="1gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="1portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-              </nav>
-        </div>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-md">
+            <a href="1ahomepage.html" class="navbar-brand"><img src="logo.png" width="130px" height="50px"/></a>
+            <button type="button" class="navbar-toggler ml-auto custom-toggler navbar-dark" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse text-right navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="1ahomepage.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="1about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item dropdown flex-grow-1 text-right">
+                        <a href="1gallery.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                        <div class="dropdown-menu">
+                            <a href="1gallery.html" class="dropdown-item">Main Gallery</a>
+                            <a href="1galleryPhoto1.html" class="dropdown-item">Individual Photos</a>
+                            <a href="1galleryPhoto2.html" class="dropdown-item">Group Photos</a>
+                            <a href="1galleryPhoto3.html" class="dropdown-item">Random Shots</a>
+                            <a href="1galleryPhoto4.html" class="dropdown-item">Avengers(2012) Photos</a>
+                            <a href="1galleryPhoto5.html" class="dropdown-item">Age of Ultron Photos</a>
+                            <a href="1galleryPhoto6.html" class="dropdown-item">IW/Endgame Photos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="1portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="1contacts.html" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
 
         <div class="container-fluid">
             <h1 id="proftitle">AVENGERS PORTFOLIO</h1>
             <div class="row justify-content-md-center"> 
 
-                <div class="col-md-3">
+                <div class="column">
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -109,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="column">
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -171,7 +180,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-3">
+                <div class="column">
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -235,12 +244,9 @@
                     </div>
                 </div>
             </div>    
-        </div>
 
-            <div class="container-fluid">
-                <div class="row justify-content-md-center">
-
-                    <div class="col-md-3">
+            <div class="row justify-content-md-center">
+                    <div class="column">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -253,7 +259,7 @@
                                 <div class="arrange">
                                     <div class="row justify-content-md-left">
                                         <div class="profile"> DOCUMENT CITIZENSHIP: </div>
-                                        <p class="description">Russia,United States</p> 
+                                        <p class="description">Russia,US</p> 
                                     </div>
                                 </div>
                                 <div class="arrange">
@@ -287,8 +293,8 @@
                                 <div class="arrange">
                                     <div class="row justify-content-md-left">
                                         <div class="profile"> POWERS/SPECIALTY: </div>
-                                        <p class="description"> Biochemical increased Strength and Dexterity, Master Assassin,
-                                                                Enhanced Immune system
+                                        <p class="description"> Biochemical increased Strength and Dexterity, Master Assassin
+                                                                
                                         </p> 
                                     </div> 
                                 </div> 
@@ -304,7 +310,7 @@
                     </div>
                 </div>
             
-                    <div class="col-md-3">
+                    <div class="column">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -368,7 +374,7 @@
                 </div>
             </div>
 
-                    <div class="col-md-3">
+                    <div class="column">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -432,12 +438,6 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <br>
-            <br>
-            <br>
-        </div>
-    </div>
 
     
 

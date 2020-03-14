@@ -8,21 +8,26 @@ img {
     background-size: 100% 100%;
     width:100%;
     height: auto;
-    padding-top: 60px;
-    padding-left: 0px;
-    padding-right: 30px;
+    padding-bottom: 80px;
 }
 
-.col-md-3{
-    margin-left: 40px;
-    margin-right: 55px;
+.column{
+    margin: 10px 20px 20px 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 .flip-box {
     background-color: transparent;
     width: 400px;
     height: 580px;
     perspective: 1000px;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
   
 .flip-box-inner {
@@ -51,6 +56,8 @@ img {
     height: auto;
     color: white;
     transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
 
 }
 .sname{
@@ -66,14 +73,8 @@ img {
 }
 
 .arrange{
-    padding-top: 1px;
-    padding-bottom: 5px;
-    padding-right: 2px;
-    padding-left: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding: 1px 3px 0px 0px;
+    margin: 0px 20px 0px 20px;
 }
 
 .profile{
@@ -102,5 +103,6 @@ img {
     color: white;
     text-align: center;
     font-size: 5.0vw;
-    padding-bottom: 10px;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
